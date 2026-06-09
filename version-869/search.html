@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影片搜索-国产影视大全—免费在线点播视频与热门电影推荐-国产好剧推荐</title>
+  <meta name="description" content="国产影视大全影片搜索页，可按片名、类型、地区、年份和标签查找高清免费在线观看内容。">
+  <meta name="keywords" content="国产影视大全—免费在线点播视频与热门电影推荐-国产好剧推荐,国产,视频,免费,在线观看,高清,影视大全,搜索,在线观看">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body onload="initSearchPage()">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="国产影视大全">
+      <span class="logo-icon">♥</span>
+      <span class="logo-text">国产影视大全</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="categories.html">分类</a>
+      <a class="nav-link" href="ranking.html">排行</a>
+      <a class="nav-link active" href="search.html">搜索</a>
+    </nav>
+    <form class="header-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、类型、地区" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="打开菜单" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" data-mobile-panel>
+    <nav class="mobile-nav" aria-label="移动导航">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="categories.html">分类</a>
+      <a class="nav-link" href="ranking.html">排行</a>
+      <a class="nav-link active" href="search.html">搜索</a>
+    </nav>
+    <form class="mobile-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main>
+  <section class="page-hero container">
+    <div class="section-kicker" style="color: #ef4444;">影片搜索</div>
+    <h1>搜索影片</h1>
+    <p>输入片名、类型、地区、年份或标签，快速查找想看的影视内容。</p>
+    <div class="search-box">
+      <input id="searchInput" type="search" placeholder="例如：动作、喜剧、2024、香港" aria-label="搜索影片">
+      <button type="button">搜索</button>
+    </div>
+  </section>
+  <section class="container search-results" id="searchResults"></section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-logo"><span class="logo-icon">♥</span><span>国产影视大全</span></div>
+      <p>国产影视大全提供免费在线点播服务，涵盖海量视频与热门电影推荐。本站视频资源高清，内容广泛，支持便捷的免费观看。</p>
+    </div>
+    <div>
+      <h2>热门入口</h2>
+      <ul>
+        <li><a href="index.html#featured">热门精选</a></li>
+        <li><a href="ranking.html">热门排行</a></li>
+        <li><a href="categories.html">分类浏览</a></li>
+        <li><a href="search.html">影片搜索</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>分类片单</h2>
+      <ul>
+        <li><a href="category-featured.html">精选好剧</a></li>
+        <li><a href="category-hot-movies.html">热门电影</a></li>
+        <li><a href="category-new-series.html">热播剧集</a></li>
+        <li><a href="category-suspense.html">悬疑惊悚</a></li>
+        <li><a href="category-romance.html">都市爱情</a></li>
+        <li><a href="category-comedy.html">喜剧轻松</a></li>
+        <li><a href="category-action.html">动作犯罪</a></li>
+        <li><a href="category-classic.html">经典怀旧</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>观影推荐</h2>
+      <p>精选电影、热播剧集、悬疑惊悚、都市爱情与家庭治愈内容持续更新。</p>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 国产影视大全. 保留所有权利.</div>
+</footer>
+<script src="./assets/search-data.js"></script>
+
+<script src="./assets/site.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

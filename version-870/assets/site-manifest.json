@@ -1,0 +1,7 @@
+{
+  "siteTitle": "国产影视大全—免费在线点播视频与热门电影推荐-国产好剧推荐",
+  "logo": "国产影视大全",
+  "movieCount": 2000,
+  "categoryCount": 12,
+  "coverRule": "X = ((N - 1) % 150) + 1, images are referenced from the top-level directory as 1.jpg to 150.jpg."
+}
